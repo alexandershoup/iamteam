@@ -1,0 +1,22 @@
+{
+  "name": "breadcrumb-api",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alexandershoup",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "express-busboy": "^4.0.0",
+    "fs": "*",
+    "mongoose": "*",
+    "multer": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
