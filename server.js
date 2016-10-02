@@ -26,7 +26,7 @@ var port = process.env.PORT || 8080;
 
 // ROUTING OUR HTML============
 app.get('/', function(req, res) {
-        res.sendfile(__dirname + '/index.html');
+        res.sendfile(__dirname + '/app/index.html');
 });
 
 app.use("/uploads", express.static(__dirname + '/uploads'));
