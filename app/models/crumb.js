@@ -3,6 +3,7 @@
 var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
 
+//Here we define our database schema
 var CrumbSchema   = new Schema({
     name: String,
     course: String,

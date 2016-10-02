@@ -9,12 +9,9 @@
   "author": "alexandershoup",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "~1.0.1",
-    "express": "~4.0.0",
     "express-busboy": "^4.0.0",
     "fs": "*",
-    "mongoose": "*",
-    "multer": "^1.2.0"
+    "mongoose": "*"
   },
   "devDependencies": {
     "nodemon": "^1.10.2"
