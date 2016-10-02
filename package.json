@@ -9,9 +9,9 @@
   "author": "alexandershoup",
   "license": "ISC",
   "dependencies": {
+    "express": "~4.0.0",
     "express-busboy": "^4.0.0",
-    "fs": "*",
-    "mongoose": "*"
+    "mongoose": "^2.15.9"
   },
   "devDependencies": {
     "nodemon": "^1.10.2"

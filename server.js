@@ -1,8 +1,8 @@
 // server.js
 
 // BASE SETUP
-var mongoose   = require('mongoose');       // framework for defining mongoose schema
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds047666.mlab.com:47666/iamteam');
+var mongoose   = require('mongoose');       // orm for working with mondodb
+mongoose.connect('mongodb://test:iamtest@ds047666.mlab.com:47666/iamteam');
 var Crumb      = require('./app/models/crumb'); // Our schema model
 
 var express    = require('express');        // call express= Our node.js framework
