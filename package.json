@@ -12,7 +12,7 @@
   "dependencies": {
     "express": "~4.0.0",
     "express-busboy": "^4.0.0",
-    "mongoose": "^2.15.9"
+    "mongoose": "*"
   },
   "devDependencies": {
     "nodemon": "^1.10.2"
