@@ -2,7 +2,7 @@
 
 // BASE SETUP
 var mongoose   = require('mongoose');       // orm for working with mondodb
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds047666.mlab.com:47666/iamteam');
+mongoose.connect('mongodb://user:pass@ds049456.mlab.com:49456/iamteam');
 var Crumb      = require('./app/models/crumb'); // Our schema model
 
 var express    = require('express');        // call express= Our node.js framework
@@ -70,10 +70,12 @@ router.route('/crumbs')
         res.send(err);
 
         res.json({ message: 'Crumb created!' });
+
     })
 })
     // accessed at GET http://localhost:8080/api/crumbs
     .get(function(req, res) {
+        console.log(req);
         Crumb.find(function(err, crumbs) {
             if (err)
             res.send(err);

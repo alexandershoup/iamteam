@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "alexandershoup",
   "license": "ISC",
@@ -15,5 +16,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.10.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandershoup/iamteam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandershoup/iamteam/issues"
+  },
+  "homepage": "https://github.com/alexandershoup/iamteam#readme"
 }
